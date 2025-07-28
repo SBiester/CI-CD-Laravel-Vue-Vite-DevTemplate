@@ -96,7 +96,9 @@ export default {
     
     const fetchUserName = async () => {
       try {
-        const response = await axios.get('/user/manager');
+        const response = null;
+        // Fix für development! Muss bei live wieder geändert werden!
+        // const response = await axios.get('/user/manager');
         userName.value = response.data.userName;
         userEmail.value = response.data.userMail;
       } catch (error) {
