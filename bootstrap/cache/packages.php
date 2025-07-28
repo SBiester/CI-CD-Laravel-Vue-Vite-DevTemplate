@@ -1,4 +1,16 @@
 <?php return array (
+  'dcblogdev/laravel-microsoft-graph' => 
+  array (
+    'aliases' => 
+    array (
+      'MsGraph' => 'Dcblogdev\\MsGraph\\Facades\\MsGraph',
+      'MsGraphAdmin' => 'Dcblogdev\\MsGraph\\Facades\\MsGraphAdmin',
+    ),
+    'providers' => 
+    array (
+      0 => 'Dcblogdev\\MsGraph\\MsGraphServiceProvider',
+    ),
+  ),
   'laravel/sail' => 
   array (
     'providers' => 
